@@ -16,7 +16,7 @@ public class HelloWorld extends JavaPlugin {
 	@Override
 	public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
 		if (command.getName().equalsIgnoreCase("hello")) {
-			sender.sendMessage("Hello, World!");
+			sender.sendMessage(sender.getName() + "is a faggot!");
 			return true;
 		}
 		return false;
