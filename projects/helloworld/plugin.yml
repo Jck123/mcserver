@@ -6,4 +6,3 @@ description: Hello World
 commands:
     hello:
     description: Hello World
-    usage: /hello
