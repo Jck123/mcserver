@@ -1,0 +1,11 @@
+main: tld.helloworld.plugin.HelloWorld
+name: HelloWorld
+version: 1.0
+author: Jck123
+description: Hello World
+commands:
+    hello:
+    description: Hello World
+    usage: /hello
+    permission: plugin.hello
+    permission-message: You don't have the plugin.hello permission.
