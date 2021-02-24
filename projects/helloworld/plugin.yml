@@ -3,3 +3,6 @@ name: HelloWorld
 version: 1.0
 author: Jck123
 description: Hello World
+commands:
+    hello:
+    
