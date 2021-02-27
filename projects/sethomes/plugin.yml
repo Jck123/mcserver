@@ -1,0 +1,9 @@
+main: jck.sethomes.plugin.SetHomes
+name: JckSetHomes
+version: 1.0
+author: Jck123
+description: Set Homes
+commands:
+    GetPlLoc:
+       description: Returns player location
+       usage: /GetPlLoc [Player]

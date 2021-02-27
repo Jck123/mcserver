@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>helloworld</name>
+	<name>sethomes</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -15,7 +15,7 @@
 			<arguments>
 				<dictionary>
 					<key>LaunchConfigHandle</key>
-					<value>&lt;project&gt;/.externalToolBuilders/Make JAR [Builder].launch</value>
+					<value>&lt;project&gt;/.externalToolBuilders/Make JAR [Builder] (1).launch</value>
 				</dictionary>
 			</arguments>
 		</buildCommand>
