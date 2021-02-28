@@ -7,3 +7,6 @@ commands:
     GetPlLoc:
        description: Returns player location
        usage: /GetPlLoc [Player]
+    LoadPlLoc:
+       description: Returns player location
+       usage: /LoadPlLoc [Player]
