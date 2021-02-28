@@ -19,7 +19,8 @@ public class SetHomes extends JavaPlugin {
 		if (command.getName().equalsIgnoreCase("GetPlLoc")) {
 			if (Bukkit.getPlayer(args[0]) != null) {
 				Player ply = Bukkit.getPlayer(args[0]);
-				sender.sendMessage(ply.getName() + " is at: " + ply.getLocation());
+				ply.saveData();
+				sender.sendMessage(ply.getName() + "'s information is saved");
 				return true;
 			}
 			sender.sendMessage("Please add a player");
