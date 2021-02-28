@@ -17,7 +17,7 @@ public class SetHomes extends JavaPlugin {
 	}
 	public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
 		if (command.getName().equalsIgnoreCase("GetPlLoc")) {
-			if (Bukkit.getPlayer(args[0]) != null) {
+			if (args.length != 0 || Bukkit.getPlayer(args[0]) != null) {
 				Player ply = Bukkit.getPlayer(args[0]);
 				ply.saveData();
 				sender.sendMessage(ply.getName() + "'s information is saved");
