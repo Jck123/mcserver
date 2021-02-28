@@ -17,13 +17,13 @@ public class SetHomes extends JavaPlugin {
 	}
 	public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
 		if (command.getName().equalsIgnoreCase("GetPlLoc")) {
-			if (args.length != 0 && Bukkit.getPlayer(args[0]) != null) {
-				Player ply = Bukkit.getPlayer(args[0]);
+			if ((sender instanceof Player)) {
+				Player ply = Bukkit.getPlayer(sender.getName());
 				ply.saveData();
-				sender.sendMessage(ply.getName() + "'s information is saved!");
+				sender.sendMessage(sender.getName() + "'s information is saved!");
 				return true;
 			}
-			sender.sendMessage("Please add a player");
+			sender.sendMessage("A player needs to send this command!");
 			return true;
 		} else if (command.getName().equalsIgnoreCase("LoadPlLoc")) {
 			if (args.length != 0 && Bukkit.getPlayer(args[0]) != null) {
